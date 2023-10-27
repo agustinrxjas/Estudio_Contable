@@ -1,0 +1,259 @@
+:root {
+    /* Tipografía */
+    @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet");
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  /* Reset margin y paddings*/
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+  } 
+  
+/*BARRA NAV*/
+
+.header{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 7em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav{
+    background-color: burlywood;
+    width: 100vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.logo{
+    background-color: blue;
+    width: 15em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logo__img{
+    background-color: #db817c;
+    width:11em;
+    height: 4.5em;
+}
+
+.barra{
+    background-color: darkseagreen;
+    width: 60em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.barra__links{
+    background-color: rgb(53, 171, 160);
+    list-style: none;
+}
+
+.barra__links a{
+    background-color: darkorchid;
+    padding: .5em 1.5em;
+
+    text-decoration: none;
+}
+
+        /*MAIN*/
+
+.main{
+    width: 100%;
+}
+
+    /*somos 1*/
+
+.somosa{
+    background-color: orange;
+    width: 100vw;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.somosa__div{
+    background-color: #db817c;
+    width: 60vw;
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quiens__div--h1{
+    background-color: aqua;
+    padding: 1em 5em;
+    margin-bottom: 1em;
+}
+
+.quiens__div--p{
+    background-color: blanchedalmond;
+
+    width: 100vw;
+    max-width: 65em;
+    min-width: 60em;
+
+    padding: 5em 5em;
+    border-radius: 4em;
+}
+  /*seccion 2*/
+
+  .somosb{
+    background-color: violet;
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.somosb__div{
+    background-color: #2b2b55;  
+    width: 80vw;
+    min-height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.somosb__div--h1{
+    background-color: rgb(180, 96, 96);
+    padding: 1em 5em;
+    margin-bottom: 1.5em;
+}
+
+.info{
+    background-color: orange;
+    width: 60vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cartas{
+    background-color: bisque;
+    width: 20em;
+    min-height: 25em;
+    margin: 0 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content : center;
+}
+
+.cartas__img{
+    background-color: lightgreen;
+    width: 60%;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+.cartas__titulo{
+    background-color: lightskyblue;
+    padding: .5em 1.5em;
+    margin-bottom: 1em;
+}
+
+.cartas__p{
+    background-color: lightseagreen;
+    width: 80%;
+}
+
+
+        /*footer*/
+
+.footer{
+    background-color: #25ac4e;
+    width: 100%;
+    height: 5em;
+
+    display: flex;
+            flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+        
+}
+        
+.finp{
+    background-color: #9c4242;
+    width: 90vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+ 
+.izq{
+    background-color: #9dd33f;
+    width: 50vw;
+
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+        
+ .izq__copy{
+    background-color: lightcoral;
+}
+        
+.dch{
+    background-color: rgb(213, 148, 99);
+    width: 50v
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+        
+.dch__a{
+    background-color: rgb(92, 197, 197);
+    padding: 1em 2em;
+}
+        

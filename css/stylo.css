@@ -1,0 +1,1127 @@
+:root {
+  /* Tipografía */
+  @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet");
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Reset margin y paddings*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+} 
+
+/*---CODIGO CSS PARA LA PAGINA DE INICIO---*/
+
+.header{
+    background-color: #9c4242;
+    width: 100%;
+    min-height: 7em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.nav{
+    background-color: burlywood;
+    width: 100vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+.logo{
+    background-color: blue;
+    width: 15em;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logo__img{
+    background-color: #db817c;
+    width:11em;
+    height: 4.5em;
+}
+
+.barra{
+    background-color: darkseagreen;
+    width: 60em;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.barra__links{
+    background-color: rgb(53, 171, 160);
+    list-style: none;
+}
+
+.barra__links a{
+    background-color: darkorchid;
+    padding: .5em 1.5em;
+
+    text-decoration: none;
+}
+
+        /*MAIN*/
+
+.main{
+    width: 100%;
+}
+
+        /*INICIO*/
+
+.seccion{
+    background-color: #db817c;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion--a{
+    
+}
+
+.inicio{
+    background-color: antiquewhite;
+    width:  100%;
+    max-width: 40em;
+    min-height: 20em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inicio__titulo{
+    background-color: orange;
+    padding: 1em 2.5em;
+}
+
+.inicio__logo{
+    background-color: #db817c;
+    width: 30em;
+    min-height: 15em;
+}
+
+        /*QUIENES SOMOS */
+
+.seccion--b{
+    background-color: #25ac4e;
+    min-height: 60vh;
+
+}
+
+.quiensomos{
+    background-color: antiquewhite;
+    width: 70vw;
+    max-width: 90em;
+    min-height: 30em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.somos{
+    background-color: aquamarine;
+    width: 50vw;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.somos__titulo{
+    background-color: blueviolet;
+    padding: 1em 5em;
+}
+
+.caja{
+    background-color: burlywood;
+    width: 65vw;
+    min-height: 18em;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4em;
+}
+
+.caja__p{
+    background-color: cadetblue;
+    width: 60vw;
+}
+
+        /*SERVICIOS*/
+
+.seccion--c{
+    background-color: #9c4242; 
+    min-height: 70vh;
+}
+
+.cajas{
+    background-color: blueviolet;
+    width: 70vw;
+    max-width: 92em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cajas__titulo{
+    background-color: #9dd33f;
+    width: 60vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cajas__titulo--h2{
+    background-color: burlywood;
+    padding: 1em 5em;
+}
+
+#carouselExample{
+    background-color: antiquewhite;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6em;
+}
+
+.carousel-inner{
+    width: 80%;
+}
+
+.carousel-item{
+
+}
+
+.active{
+
+}
+
+.d-block{
+
+}
+
+.w-100{
+
+}
+
+.carousel-control-prev{
+
+}
+
+.carousel-control-prev-icon{
+    background-color: #25ac4e;
+
+}
+
+.visually-hidden{
+
+}
+
+.carousel-control-next{
+
+}
+
+.carousel-control-next-icon{
+    background-color: #25ac4e;
+
+}
+
+.visually-hidden{
+
+}
+
+
+        /*UBICACION*/
+
+.seccion--d{
+    background-color: antiquewhite;
+    min-height: 60vh;
+    
+}
+
+.sec{
+    background-color: #9dd33f;
+    width: 60vw;
+    max-width: 90em;
+    min-height: 40em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.sucursal{
+    background-color: #25ac4e;
+    width: 40vw;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sucursal__titulo{
+    background-color: aquamarine;
+    padding: 1em 5em;
+}
+
+.ubicacion{
+    background-color: purple;
+    width: 20em;
+    min-height: 20em;
+    margin: 0 20em;
+}
+
+.ubicacion__a{
+    background-color: lightpink;
+}
+
+.ubicacion__a--img{
+    background-color: lightskyblue;
+}
+
+        /*CONTACTO*/
+
+.seccion--e{
+    background-color: purple;
+    min-height: 60vh;
+}
+
+.contacto{
+    background-color: lightgreen;
+    width: 70vw;
+    max-width: 90em;
+    min-height: 40em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.contactar{
+    background-color: lightpink;
+    width: 50vw;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    margin-bottom: 1.5em;
+}
+
+.contactar__titulo{
+    background-color: lightslategray;
+    padding: 1em 5em;
+}
+
+.contact{
+    background-color: orange;
+    width: 65vw;
+    min-height: 16em;
+    max-width: 80em;
+
+    border-radius: 4em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact__info{
+    background-color: #db817c;
+    width: 60vw; 
+    margin: 2em;
+}
+
+.contact__link{
+    background-color: aquamarine;
+    padding: .9em 1.7em;
+    border-radius: 1em;
+
+}
+
+        /*footer*/
+
+.footer{
+    background-color: #25ac4e;
+    width: 100%;
+    height: 5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.finp{
+    background-color: #9c4242;
+    width: 90vw;
+    max-width: 2048px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.izq{
+    background-color: #9dd33f;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq__copy{
+    background-color: lightcoral;
+}
+
+.dch{
+    background-color: rgb(213, 148, 99);
+    width: 50vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dch__a{
+    background-color: rgb(92, 197, 197);
+    padding: 1em 2em;
+}
+
+    /*PANTALLA DESDE 1928PX - 1328PX*/
+@media screen and (min-width:1328px) and (max-width:1920px){
+.header{
+ background-color: blue;
+    min-height: 6.5em;
+}
+
+.nav{
+    background-color: aqua;
+    max-width: 1920px;
+}
+
+.logo{
+
+}
+
+.logo__img{
+
+}
+
+.barra{
+
+}
+
+.barra__links{
+
+}
+
+.barra__links a{
+
+}
+
+.main{
+
+}
+
+        /*INICIO*/
+
+.seccion{
+    background-color: #db817c;
+
+}
+
+.seccion--a{
+    
+}
+
+.inicio{
+    background-color: antiquewhite;
+
+}
+
+.inicio__titulo{
+    background-color: orange;
+}
+
+.inicio__logo{
+    background-color: #db817c;
+}
+
+        /*QUIENES SOMOS */
+
+.seccion--b{
+    background-color: #25ac4e;
+
+}
+
+.quiensomos{
+    background-color: rgb(151, 187, 51);
+    width: 80vw;
+    
+}
+
+.somos{
+    background-color: aquamarine;
+}
+
+.somos__titulo{
+    background-color: blueviolet;
+
+}
+
+.caja{
+    background-color: burlywood;
+    width: 75vw;
+    min-width: 65em;
+    max-width: 75em;
+    
+}
+
+.caja__p{
+    background-color: cadetblue;
+    width: 100vw;
+    margin: 0 2em;
+    
+}
+
+        /*SERVICIOS*/
+
+.seccion--c{
+    background-color: #9dd33f;
+
+}
+
+.servicios{
+    background-color: orange;
+
+}
+
+.especialidad{
+    
+}
+
+.especialidad__titulo{
+
+}
+
+.especialidades{
+
+}
+
+.especialidades__img{
+
+}
+
+        /*UBICACION*/
+
+.seccion--d{
+    background-color: antiquewhite;
+    
+}
+
+.sec{
+    background-color: #9dd33f;
+
+}
+
+.sucursal{
+    background-color: #25ac4e;
+
+}
+
+.sucursal__titulo{
+    background-color: aquamarine;
+
+}
+
+.ubicacion{
+    background-color: purple;
+    margin: 0 5em;
+
+}
+
+.ubicacion__a{
+    background-color: lightpink;
+}
+
+.ubicacion__a--img{
+    background-color: lightskyblue;
+}
+
+        /*CONTACTO*/
+
+.seccion--e{
+    background-color: purple;
+
+}
+
+.contacto{
+    background-color: lightgreen;
+    width: 80vw;
+
+}
+
+.contactar{
+    background-color: lightpink;
+
+}
+
+.contactar__titulo{
+    background-color: lightslategray;
+}
+
+.contact{
+    background-color: orange;
+    width: 70vw;
+    min-width: 60em;
+    max-width: 70em;
+    min-height: 14em;
+}
+
+.contact__info{
+    background-color: #db817c;
+    width: 100vw;
+}
+
+.contact__link{
+    background-color: aquamarine;
+
+}
+
+        /*footer*/
+
+.footer{
+    background-color: #25ac4e;
+
+
+}
+
+.finp{
+    background-color: #9c4242;
+
+}
+
+.izq{
+    background-color: #9dd33f;
+
+}
+
+.izq__copy{
+    background-color: lightcoral;
+}
+
+.dch{
+    background-color: rgb(213, 148, 99);
+}
+
+.dch__a{
+    background-color: rgb(92, 197, 197);
+}
+
+}
+
+
+/*-------------------------------------------------------------------*/
+    
+    /*PANTALLA DESDE 1328PX a 1024PX*/
+@media screen and (min-width:1024px) and (max-width:1328px){
+.header{
+    background-color: blue;
+    min-height: 6em;
+}
+        
+.nav{
+    background-color: aqua;
+    max-width: 1328px;
+}
+        
+.logo{
+        
+}
+        
+.logo__img{
+        
+}
+        
+.barra{
+    width: 70vw;
+    min-width: 46em;
+    max-width: 60em;
+}
+        
+.barra__links{
+        
+}
+        
+.barra__links a{
+        
+}
+        
+.main{
+        
+}
+        
+        /*INICIO*/
+        
+.seccion{
+            background-color: #db817c;
+        
+}
+        
+        .seccion--a{
+            
+        }
+        
+        .inicio{
+            background-color: antiquewhite;
+        
+        }
+        
+        .inicio__titulo{
+            background-color: orange;
+        }
+        
+        .inicio__logo{
+            background-color: #db817c;
+        }
+        
+                /*QUIENES SOMOS */
+        
+        .seccion--b{
+            background-color: #25ac4e;
+        
+        }
+        
+        .quiensomos{
+            background-color: rgb(151, 187, 51);
+            width: 85vw;
+
+        }
+        
+        .somos{
+            background-color: aquamarine;
+        }
+        
+        .somos__titulo{
+            background-color: blueviolet;
+        
+        }
+        
+        .caja{
+            width: 100%;
+            min-width: 75vw;
+            max-width: 80vw;
+
+
+        }
+        
+        .caja__p{
+            width: 72vw;
+            min-width: 46em;
+            max-width: 60em;   
+        }
+        
+                /*SERVICIOS*/
+        
+        .seccion--c{
+            background-color: #9dd33f;
+        
+        }
+        
+        .servicios{
+            background-color: orange;
+        
+        }
+        
+        .especialidad{
+            
+        }
+        
+        .especialidad__titulo{
+        
+        }
+        
+        .especialidades{
+        
+        }
+        
+        .especialidades__img{
+        
+        }
+        
+                /*UBICACION*/
+        
+        .seccion--d{
+            background-color: antiquewhite;
+            
+        }
+        
+        .sec{
+            background-color: #9dd33f;
+        
+        }
+        
+        .sucursal{
+            background-color: #25ac4e;
+        
+        }
+        
+        .sucursal__titulo{
+            background-color: aquamarine;
+        
+        }
+        
+        .ubicacion{
+            background-color: purple;
+            margin: 0 1em;
+        }
+        
+        .ubicacion__a{
+            background-color: lightpink;
+        }
+        
+        .ubicacion__a--img{
+            background-color: lightskyblue;
+        }
+        
+                /*CONTACTO*/
+        
+        .seccion--e{
+            background-color: purple;
+        
+        }
+        
+        .contacto{
+            background-color: lightgreen;
+            width: 85vw;
+
+        
+        }
+        
+        .contactar{
+            background-color: lightpink;
+        
+        }
+        
+        .contactar__titulo{
+            background-color: lightslategray;
+        }
+        
+        .contact{
+            background-color: orange;
+            width: 90%;
+            min-width: 50em;
+            max-width: 60em;
+
+        }
+        
+        .contact__info{
+            background-color: #db817c;
+            width: 100%;
+
+        }
+        
+        .contact__link{
+            background-color: aquamarine;
+        
+        }
+        
+                /*footer*/
+        
+        .footer{
+            background-color: #25ac4e;
+        
+        
+        }
+        
+        .finp{
+            background-color: #9c4242;
+        
+        }
+        
+        .izq{
+            background-color: #9dd33f;
+        
+        }
+        
+        .izq__copy{
+            background-color: lightcoral;
+        }
+        
+        .dch{
+            background-color: rgb(213, 148, 99);
+        }
+        
+        .dch__a{
+            background-color: rgb(92, 197, 197);
+        }
+        
+        }
+        
+/*--------------------------------------------------------------------------------------------------*/
+        /**/
+    /*PANTALLA DESDE 1024X a 960PX*/
+    @media screen and (min-width:960px) and (max-width:1024px){
+.header{
+    background-color: rgb(131, 131, 222);
+            
+}
+                
+.nav{
+
+}
+                
+.logo{
+        
+}
+                
+.logo__img{
+                
+}
+                
+.barra{
+    
+}
+                
+.barra__links{
+                
+}
+                
+.barra__links a{
+                
+}
+                
+.main{
+                
+}
+                
+        /*INICIO*/
+                
+.seccion{
+
+}
+                
+.seccion--a{
+                    
+}
+                
+.inicio{
+                
+}
+                
+.inicio__titulo{
+
+}
+                
+.inicio__logo{
+
+}
+                
+       /*QUIENES SOMOS */
+                
+.seccion--b{
+
+                
+}
+                
+.quiensomos{
+
+}
+                
+.somos{
+
+}
+                
+.somos__titulo{
+               
+}
+                
+.caja{
+
+        
+        
+}
+                
+.caja__p{
+  
+}
+                
+        /*SERVICIOS*/
+                
+.seccion--c{
+  
+}
+                
+.servicios{
+                
+}
+                
+.especialidad{
+                    
+}
+                
+.especialidad__titulo{
+                
+}
+                
+.especialidades{
+                
+}
+                
+.especialidades__img{
+
+}
+                
+        /*UBICACION*/
+                
+.seccion--d{
+                    
+}
+                
+.sec{
+
+}
+
+.sucursal{
+
+}
+
+.sucursal__titulo{
+
+}
+                
+.ubicacion{
+}
+                
+.ubicacion__a{
+
+}
+                
+.ubicacion__a--img{
+
+}
+                
+        /*CONTACTO*/
+                
+.seccion--e{
+
+}        
+               
+.contacto{
+                      
+}
+                
+.contactar{
+
+}
+                
+.contactar__titulo{
+
+}
+                
+.contact{
+        
+}
+                
+.contact__info{
+        
+}
+                
+.contact__link{
+
+}
+                
+        /*footer*/
+                
+.footer{
+                           
+}
+                
+.finp{
+                
+}
+                
+.izq{
+                
+}
+                
+.izq__copy{
+
+}
+                
+.dch{
+
+}
+                
+.dch__a{
+
+}
+                
+}
